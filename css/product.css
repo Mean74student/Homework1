@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: black;
 }
 body{
     display: flex;
@@ -19,7 +20,7 @@ nav ul{
     align-items: center;
     padding: 20px;
     gap: 20px;
-    background: purple;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 nav ul li {
     list-style: none;
@@ -27,12 +28,15 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
+}
+#active{
+    background: #9584aa;
+    padding: 20px;
     color: white;
 }
 header{
-    background: blue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     flex-basis: 225px;
-    color: white;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -54,7 +58,7 @@ table{
 table th, table td {
     color: white;
     padding: 10px;
-    border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     text-align: center;
 }
 thead th:nth-child(1) , tbody td:nth-child(1){

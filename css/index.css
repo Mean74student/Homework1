@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: black;
 }
 body{
     display: flex;
@@ -14,7 +15,7 @@ nav{
     flex-direction: column;
 }
 nav ul{
-    background: purple;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,11 +28,14 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
+}
+#active{
+    background: #9584aa;
+    padding: 20px;
     color: white;
 }
 header{
-    background: blue;
-    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     flex-basis: 225px;
     font-weight: bold;
     display: flex;
@@ -41,6 +45,7 @@ header{
 .main-contrianer{
     display: flex;
     flex: 7;
+    padding: 10px 0px;
 }
 .boxs{
     display: flex;
@@ -52,10 +57,12 @@ header{
     gap: 10px;
 }
 .box{
-    background: #b8a5a5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     height: 48%;
     width: 32%;
 }
 .full-box{
     width: 97.6%;
+    height: 45%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

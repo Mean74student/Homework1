@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: black;
 }
 body{
     display: flex;
@@ -14,7 +15,7 @@ nav{
     flex-direction: column;
 }
 nav ul{
-    background: purple;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,11 +28,14 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
+}
+#active{
+    background: #9584aa;
+    padding: 20px;
     color: white;
 }
 header{
-    background: blue;
-    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     flex-basis: 225px;
     font-weight: bold;
     display: flex;
@@ -42,10 +46,10 @@ main{
     display: flex;
     flex: 7;
     flex-direction: column;
-    margin: 0px 15px;
+    margin: 10px 15px;
     gap: 10px;
 }
 main .card{
     flex: 1;
-    background: #cfb6b6;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
